@@ -57,13 +57,13 @@ console.log(student.lastName);
 console.log(student.age);
 console.log(student.height);
 
-var age = prompt('How old are you?');
+/*var age = prompt('How old are you?');
 
 if ( (age >= 18) && (age <= 25) ) {
     console.log('You are a teenager');
 } else {
     console.log('You are not a teenager'); 
-}
+}*/
 
 //IF ELSE Statwment to decide what day it is using numbers
 
@@ -72,26 +72,59 @@ if (day =1){
     console.log('Today is Monday');
 }
 
-if (day =2){
+else if (day >=2){
     console.log('Today is Tuesday');
 }
 
-if (day =3){
+else if (day =3){
     console.log('Today is Wednesday');
 }
 
-if (day =4){
+else if (day =4){
     console.log('Today is Thursday');
 }
 
-if (day =5){
+else if (day =5){
     console.log('Today is Friday');
 }
 
-if (day =6){
+else if (day =6){
     console.log('Today is Saturday');
 }
 
-if (day =7){
+else if (day =7){
     console.log('Today is Sunday');
 }
+
+else if (day >=8){
+    console.log('Please enter a valid number');
+}
+
+/*switch (day){
+    case 1:
+        console.log('Today is Monday');
+        break;
+    case 2:
+        console.log('Today is Tuesday');
+        break;
+    case 3:
+        console.log('Today is Wednesday');
+        break;
+    case 4:
+        console.log('Today is Thursday');
+        break;
+    case 5:
+        console.log('Today is Friday');
+        break;
+    case 6:
+        console.log('Today is Saturday');
+        break;
+    case 7:
+        console.log('Today is Sunday');
+        break;
+    default:
+        console.log('Please enter a valid number');
+
+}*/
+
+
