@@ -64,3 +64,34 @@ if ( (age >= 18) && (age <= 25) ) {
 } else {
     console.log('You are not a teenager'); 
 }
+
+//IF ELSE Statwment to decide what day it is using numbers
+
+var day = prompt('What day is it?');    
+if (day =1){
+    console.log('Today is Monday');
+}
+
+if (day =2){
+    console.log('Today is Tuesday');
+}
+
+if (day =3){
+    console.log('Today is Wednesday');
+}
+
+if (day =4){
+    console.log('Today is Thursday');
+}
+
+if (day =5){
+    console.log('Today is Friday');
+}
+
+if (day =6){
+    console.log('Today is Saturday');
+}
+
+if (day =7){
+    console.log('Today is Sunday');
+}
