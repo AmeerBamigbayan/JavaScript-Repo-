@@ -62,5 +62,5 @@ var age = prompt('How old are you?');
 if ( (age >= 18) && (age <= 25) ) {
     console.log('You are a teenager');
 } else {
-    console.log('You are not a teenager');
+    console.log('You are not a teenager'); 
 }
